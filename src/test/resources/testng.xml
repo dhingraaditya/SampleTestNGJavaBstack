@@ -5,7 +5,7 @@
         <parameter name="config" value="single.conf.json"/>
         <parameter name="environment" value="chrome"/>
         <classes>
-            <class name="sample.tests.bstackFido.AppTest"/>
+            <class name="sample.tests.AppTest"/>
         </classes>
     </test>
 </suite>

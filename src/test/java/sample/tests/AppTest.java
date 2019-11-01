@@ -26,5 +26,7 @@ public class AppTest {
 		capabilities.setCapability("browserstack.localIdentifier", browserstackLocalIdentifier);
 		WebDriver driver = new RemoteWebDriver(new URL("https://" + username + ":" + accessKey + "@hub-cloud.browserstack.com/wd/hub"), capabilities);
 		driver.get("https://www.google.com");
+		Thread.sleep(15000);
+		driver.quit();
 	}
 }
